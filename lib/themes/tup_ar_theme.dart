@@ -3,8 +3,17 @@ import 'package:google_fonts/google_fonts.dart';
 import 'package:tup_ar_core/themes/tup_ar_colors.dart';
 
 abstract class TupArTheme {
-  static final themeData = ThemeData(
+  static final themeDataDark = ThemeData(
     colorScheme: TupArColors.darkColorScheme,
+    useMaterial3: true,
+    inputDecorationTheme: _inputDecorationTheme,
+    filledButtonTheme: _filledButtonTheme,
+    outlinedButtonTheme: _outlinedButtonTheme,
+    fontFamily: GoogleFonts.poppins().fontFamily,
+  );
+
+  static final themeData = ThemeData(
+    colorScheme: TupArColors.lightColorScheme,
     useMaterial3: true,
     inputDecorationTheme: _inputDecorationTheme,
     filledButtonTheme: _filledButtonTheme,
