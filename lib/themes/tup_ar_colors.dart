@@ -1,9 +1,6 @@
 import 'package:flutter/material.dart';
 
 abstract class TupArColors {
-  static const scaffoldBackgroundColorLight = Color(0xFFF4FEFD);
-  static const scaffoldBackgroundColorDark = Color(0xFF191C1B);
-
   static const lightColorScheme = ColorScheme(
     brightness: Brightness.light,
     primary: Color(0xFF006B58),
